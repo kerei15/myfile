@@ -1,0 +1,20 @@
+ p {
+    color: blue;
+ }
+ .text {
+    font-weight:bold;
+ }
+ #title {
+    color:red;
+    text-align: center;
+ }
+ div {
+    color: brown;   
+ }
+ #line {
+    color: green;
+ }
+ .line {
+    color: yellow;
+ }
+ 
