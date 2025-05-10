@@ -1,0 +1,21 @@
+img {
+    display: block;
+}
+h1 {
+    background-color: green;
+    display: inline;
+}
+#c {
+    display: inline;
+}
+#a {
+    background-color: red;
+    margin: 15px;
+}
+#b {
+    margin: auto;
+    display: block;
+}
+a {
+    display: block;
+}
