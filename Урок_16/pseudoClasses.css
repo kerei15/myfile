@@ -1,0 +1,30 @@
+.button:hover {
+    background-color: darkblue;
+    color:white
+}
+.input:focus {
+    border:3px solid;
+    border-color:blueviolet;
+}
+.list-item:first-child {
+    font-size:20px;
+}
+.list-item:last-child {
+    color:green;
+}
+.link:hover {
+    color:coral;
+}
+.text:nth-child(odd) {
+    color:deepskyblue;
+    font-weight: bold;
+}
+.block:first-child:hover {
+    color: red;
+    font-weight: bold;      
+}
+.block:last-child:focus {
+    background-color: bisque;
+    font-weight: bolder;
+    color: rgb(32,82,67)
+}
