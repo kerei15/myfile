@@ -1,0 +1,38 @@
+.static {
+    position: static;
+    background-color: antiquewhite; 
+}
+.relative {
+    position: relative;
+    background-color: aqua;
+    top: 30px;
+    left: 80px;
+    bottom: 90px;
+}
+.absolute {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin:30px;   
+}
+#absolute {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    top:250px;
+    left:80px;
+}
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+body {
+    height: 2000px;
+}
+.sticky {
+    position: sticky;
+    top:5px;
+    text-align: center;
+}
