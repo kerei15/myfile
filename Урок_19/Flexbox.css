@@ -1,0 +1,88 @@
+#item {
+    display: block;
+    border: 1px solid black;
+    margin:3px;
+}
+.item {
+    display: inline;
+    border: 1px solid black;
+    margin:3px;
+}
+#item2 {
+    display: flex;
+    border: 1px solid black;
+    margin:3px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+#container {
+    display: flex;
+    border:2px solid black;
+    margin:5px;
+}
+#flex1 {
+    flex-grow: 1;
+    background-color: brown;
+}
+#flex2 {
+    flex-shrink: 1;
+    background-color: crimson;
+}
+#flex3 {
+    flex-basis: 100px;
+    background-color: darkblue;
+}
+#flex4 {
+    flex: 1 0 40%;
+    background-color: darkgreen;
+}
+.flexbox {
+    border:3px solid black;
+    width: 100%;
+    display: flex;
+}
+#a {
+    width: 50%;
+    background-color: antiquewhite;
+}
+#b {
+    flex-grow: 1;
+    background-color: aqua;
+}
+#c {
+    flex-basis: 100px;
+    background-color: blue;
+}
+.link {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.BOX {
+    border:3px solid black;
+    display: flex ;
+    justify-content: space-between;
+    margin: 15px;
+}
+.grow {
+    background-color: aqua;
+    flex-grow: 1;
+    border:1px solid black;
+}
+.shrink {
+    background-color: aqua;
+    flex-shrink: 1;
+}
+.basis {
+    background-color: aqua;
+    flex-basis: 100px;
+}
