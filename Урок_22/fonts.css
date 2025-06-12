@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Savate","Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+   font-family: "MyFont";
+   src: url(./static/Montserrat-MediumItalic.ttf);
+   font-family: "MyFont2";
+   src: url(./LibreBaskerville-Italic.ttf)
+}
+p {
+    font-family: MyFont, MyFont2, sans-serif;
+}
