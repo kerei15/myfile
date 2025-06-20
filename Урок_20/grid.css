@@ -7,6 +7,10 @@ body {
     font-size: 48px;
     line-height: 60px;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .container {
     width: 1180px;
@@ -28,6 +32,10 @@ body {
     color: rgba(46, 54, 62, 1);
     margin-top: 50px;
     margin-left: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 .content3-1 {
     font-size: 16px;
@@ -35,12 +43,20 @@ body {
     color: rgba(46, 54, 62, 1);
     margin-top: 12px;
     margin-left: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .content3-2 {
     font-size: 24px;
     line-height: 150%;
     margin-top: 24px;
     margin-left: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .button {
     width: 163px;
@@ -52,6 +68,10 @@ body {
     line-height: 152%;
     margin-top: 14px;
     margin-left: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .container2 {
     width: 1180px;
@@ -74,6 +94,10 @@ body {
     line-height: 143%;
     margin-top: 50px;
     margin-left: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 .info2 {
     font-size: 16px;
@@ -81,6 +105,10 @@ body {
     color: rgba(46, 54, 62, 1);
     margin-top: 12px;
     margin-left: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .container3 {
     width: 1180px;
