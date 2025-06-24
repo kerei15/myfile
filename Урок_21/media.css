@@ -42,12 +42,26 @@
     }
     .box2 {
         margin-left: 102px; 
+        gap: 47px;
     }
     .box1 {
         margin-left: 39px;
     }
     .text2 {
         font-size: 18px;
+    }
+}
+@media (max-width: 510px) {
+    .box1 {
+        margin-left: 217px;
+        margin-top: 16px;
+        align-items: center;
+    }
+    .line {
+        color: rgba(195, 209, 198, 1);
+        width: 510px;
+        border: 1px;
+        position: relative;
     }
 }
 .container2 {
