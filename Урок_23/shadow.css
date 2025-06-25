@@ -1,0 +1,41 @@
+.box1 {
+    display: flex;
+    justify-content: space-between;
+}
+.element1 {
+    box-shadow: 15px 15px 9px 4px hsla(144, 72%, 21%, 0.723);
+    width: 200px;
+    height: 200px;
+}
+.element2 {
+    box-shadow: 25px 25px 15px 6px hsla(9, 82%, 25%, 0.723);
+    width: 200px;       
+    height: 200px;
+    background-color: aliceblue;
+}
+.element3 {
+    box-shadow: 10px 10px 16px 10px rgba(0,0,0,0.75);
+    width: 200px;       
+    height: 200px;
+}
+.h1 {
+    text-shadow: 10px 10px 6px rgba(0,0,0,0.5);
+}
+.h2 {
+    text-shadow: 5px 5px 3px rgba(65, 61, 175, 0.5);
+}
+.h3 {
+    text-shadow: 20px 20px 1px rgba(222, 53, 208, 0.5);
+}
+.linear-gradient {
+    background: linear-gradient(45deg, red, yellow, green, orange);
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+.radial-gradient {
+    background: radial-gradient(circle farthest-corner, red, brown, black, gray);
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
