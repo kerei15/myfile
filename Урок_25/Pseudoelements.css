@@ -1,0 +1,29 @@
+.before {
+    font-size: 25px;
+    border: 1px solid gray;
+}
+.before::before {
+    content: "QWERTY";
+    color: blue;
+    font-size: 40px;
+}
+.after::after {
+    content: "→";
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to right, red, yellow);
+}
+.box {
+    font-size: 25px;
+    border: 1px solid gray;
+    display: inline;
+    padding: 10px;
+}
+.box::before {
+    content: "→";   
+    background: linear-gradient(to right, green, yellow, blue);
+}
+.box::after {
+    content: "←";   
+    background: linear-gradient(to right, green, yellow, blue);
+}
