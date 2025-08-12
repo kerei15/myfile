@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 730px;
+    gap: 30px;
+    margin-top: 85px;
+}
+.card1 {
+    width: 350px;
+    height: 730px;
+    background-color: rgba(225, 237, 230, 1);
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.text1 {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(134, 146, 139, 1);
+}
+.text1-1 {
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(44, 45, 53, 1);
+}
+.text1-2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(44, 45, 53, 1);
+}
+.text1-3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
+}
+.box1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 65px;
+    border: 1px solid rgba(89, 141, 102, 1);
+}
