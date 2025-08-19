@@ -1,0 +1,262 @@
+body {
+    margin-top: 40px;
+    margin-left: 145px;
+}
+.container {
+    display: flex;
+    gap: 53px;
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.photo {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box {
+    margin-top: 40px;
+}
+.gear {
+    width: 73px;
+    height: 27px;
+    background-color: rgba(25, 25, 25, 1);
+    border: none;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.episode {
+    margin-top: 48.5px;
+    color: rgba(17, 141, 168, 1);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 27px;
+}
+.text1 {
+    margin-top: 17.5px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.5px;
+}
+.text2 {
+    margin-top: 28px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.button {
+    margin-top: 18px;
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background-color: rgba(17, 141, 168, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.card1 {
+    width: 290px;
+    height: 514px;
+    background-color: rgba(225, 237, 230, 1);
+}
+.card1-1 {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+}   
+.text1-1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    color: rgba(44, 45, 53, 1);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text1-2 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(44, 45, 53, 1);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.text1-3 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(89, 141, 102, 1);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.box1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid rgba(89, 141, 102, 1);
+    width: 250px;
+    height: 50px;
+}
+.text1-4 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: rgba(89, 141, 102, 1);
+    margin: 14.5px 81.5px;
+}
+.item2 {
+    width: 380px;
+    height: 582px;
+    border: 1px solid rgba(242, 246, 250, 1);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 2px 8px 16px 0px rgba(194, 198, 208, 0.06);
+}
+.info1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 143%;
+    color: rgba(46, 54, 62, 1); 
+    margin-top: 50px;
+    margin-left: 44px;
+}
+.info2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(46, 54, 62, 1);
+    margin-left: 44px;
+    margin-top: 12px;
+}
+.content3-2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(67, 75, 83, 1);
+    margin-top: 24px;
+    margin-left: 44px;
+}
+.btn {
+    width: 163px;
+    height: 68px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(254, 216, 76, 1);
+    margin-left: 44px;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 152%;
+    color: rgba(46, 54, 62, 1);
+}
+.box2 {
+    width: 330px;
+    height: 400px;
+    border: none;
+    border-radius: 18px;
+    background-color: rgba(12, 11, 21, 1);
+}
+.points {
+    margin-left: 279px;
+    margin-top: 23px;
+}
+.ellipse {
+    margin-left: 27px;
+}
+.myinfo {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 18px;
+    margin-left: 26.5px;
+}
+.myinfo2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(128, 159, 184, 1);
+    margin-top: 24px;   
+    margin-left: 26.5px;
+}
+.myinfo3 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(128, 159, 184, 1);
+    margin-top: 26px;
+    margin-left: 27.7px;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 150px;
+}
+.name2 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(134, 146, 139, 1);
+    margin-top: 15px;
+    margin-left: 20px;
+}
