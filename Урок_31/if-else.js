@@ -1,5 +1,5 @@
 // Задание 1
-let num = prompt('Напишите любое число:');
+let num = Number(prompt('Напишите любое число:'));
 if (num > 10) {
     console.log('Число больше 10');
 } else {
@@ -13,7 +13,7 @@ if (userConfirmed) {
     console.log('Удаление отменено');
 };
 // Задание 3
-let age = prompt('Укажите ваш возраст:')
+let age = Number(prompt('Укажите ваш возраст:'))
 if (age < 18) {
     console.log('Вы еще подросток')
 } else if (age >= 18 || age <= 30) {
@@ -22,11 +22,11 @@ if (age < 18) {
     console.log('Вы взрослый')
 }
 // Задание 4
-let number = prompt('Укажите число:');
+let number = Number(prompt('Укажите число:'));
 let evenOddNum = (number % 2 == 0) ? 'Четное число' : 'Нечетное число';
 console.log(evenOddNum);
 // Задание 5
-let day = prompt('Укажите любой день недели от 1 до 7:');
+let day = Number(prompt('Укажите любой день недели от 1 до 7:'));
 let message;
 switch (day) {
     case '1':
@@ -63,7 +63,7 @@ if (num1 == num2) {
     console.log((num1 > num2) ? 'Первое число больше' : 'Второе число больше')
 }
 // Задание 7
-let month = prompt('Укажите любой месяц от 1 до 12');
+let month = Number(prompt('Укажите любой месяц от 1 до 12'));
 let info;
 switch (month) {
     case '1':
