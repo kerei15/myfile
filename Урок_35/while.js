@@ -37,11 +37,13 @@ for (let a = 1; a <= 10; a++) {
     console.log(a)
 }
 // Задание 6
-for (let i = 0;;i++) {
+let i = 0
+for (;;) {
     console.log(i)
     if (i === 100) {
         break
     }
+    i++
 } 
 // Задание 7
 let numbers = [1,2,3,4,5]
