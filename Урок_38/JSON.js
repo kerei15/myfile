@@ -18,7 +18,7 @@ let User = localStorage.getItem("user")
 let JSONUser = JSON.parse(User)
 JSONUser.country = "Kazakhstan"
 let stringifyUser = JSON.stringify(JSONUser)
-localStorage.setItem("User",JSONUser)
+localStorage.setItem("user",JSONUser)
 console.log(JSONUser)
 // Задание 5
 if ("user" in localStorage) {
