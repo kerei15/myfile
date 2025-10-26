@@ -1,0 +1,174 @@
+body {
+   width: 1440px; 
+   margin: auto;
+}
+.header {
+   background-color: rgba(245, 247, 250, 1);
+   height: 84px;
+}
+.box {
+   background-color: rgba(245, 247, 250, 1);
+   height: 599px;
+}
+.button {
+   width: 128px;
+   height: 52px;
+}
+.text {
+   font-size: 64px;
+   line-height: 76px;
+}
+.box2 {
+   height: 190px;
+}
+.title {
+   font-size: 36px;
+   line-height: 44px;
+}
+.menu {
+   gap: 136px
+}
+.box3 {
+   height: 416px;
+}
+.card {
+   box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.3);
+}
+.card-text {
+   font-size: 28px;
+   line-height: 36px;
+}
+.cards {
+   gap: 127px;
+   height: 280px;
+}
+.block-text {
+   font-size: 36px;
+   line-height: 44px;
+}
+.img {
+   width: 442px;
+   height: 433px;
+}
+.block-text1 {
+   font-size: 14px;
+   line-height: 20px;
+}
+.box5 {
+   height: 288px;
+   background-color: rgba(245, 247, 250, 1);
+   gap: 72px;
+}
+.box-text {
+   font-size: 36px;
+   line-height: 44px;
+}
+.box-text1 {
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+}
+.block2 {
+   height: 120px;
+   width: 540px;
+}
+.block3 {
+   height: 160px;
+   width: 540px;
+   flex-wrap: wrap;
+}
+.icon-text1 {
+   font-size: 28px;
+   line-height: 36px;
+}
+.card2,.box4 {
+   height: 433px;
+   margin-left: 144px;
+}
+.card2-title {
+   font-size: 36px;
+   line-height: 44px;
+}
+.card3 {
+   background-color: rgba(245, 247, 250, 1);
+   height: 390px;
+}
+.card3-title {
+   color: rgba(113, 113, 113, 1);
+   font-size: 16px;
+   line-height: 24px;
+}
+.card3-text {
+   font-size: 20px;
+   line-height: 28px;
+}
+.img2 {
+   margin-left: 144px;
+   margin-right: 78px;
+}
+.menu2 {
+   gap: 37px;
+}
+.button {
+   font-size: 20px;
+   line-height: 28px;
+   white-space: nowrap;
+   padding-top: 8px;
+}
+.container-text {
+   font-size: 36px;
+   line-height: 44px;
+}
+.shadow-none .card-body {
+   margin: auto;
+   height: 176px;
+   margin-top: -88px;
+   width: 317px;
+   background-color: rgba(245, 247, 250, 1);
+   border-radius: 8px;
+   box-shadow: 0px 8px 16px 0px;
+}
+body {
+   width: 1440px;
+}
+.container1 .card,
+.container1 .card-img-top {
+   width: 368px !important;
+   flex: none;
+}
+.card-text {
+   font-size: 20px;
+   line-height: 28px;
+}
+.card {
+   background-color: rgba(245, 247, 250, 1);
+}
+.container2 .card-title {
+   font-size: 64px;
+   line-height: 76px;
+}
+.container2 .btn-success {
+   width: 178px;
+   height: 52px;
+   padding-top: 12px;
+   margin: auto;
+}
+.container3 {
+   background-color: rgba(38, 50, 56, 1);
+}
+.footer-text {
+   color: rgba(245, 247, 250, 1);
+}
+.input {
+   width: 255px;
+   height: 40px;
+   background-color: rgba(171, 190, 209, 0.3);
+   border-radius: 8px;
+   gap: 80px;
+}
+.input-text {
+   color: rgba(217, 219, 225, 1);
+}
+.vector {
+   margin-top: 2px;
+}
