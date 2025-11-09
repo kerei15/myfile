@@ -75,8 +75,13 @@ async function task2() {
     console.log(error)
   }
 }
-task1().then(result => console.log(result))
-task2().then(result => console.log(result))
+async function tasks() {
+  const result1 = await task1()
+  console.log(result1)
+  const result2 = await task2()
+  console.log(result2)
+}
+tasks()
 // Задание 9
 async function taskA() {
   try {
